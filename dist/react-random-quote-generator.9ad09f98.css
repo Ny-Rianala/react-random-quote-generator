@@ -37,9 +37,19 @@ li {
     margin-bottom: 2rem;
   }
 
-  .quote {
+  .quote, .listOfQuote {
     margin-top: 2rem;
+    border-inline-start: orange 3px solid;
   }
+
+  h1 {
+    margin-left: 3rem;
+  }
+
+  p {
+    margin-left: 1rem;
+  }
+
 
 .quote-button {
     background-color: white;
@@ -75,6 +85,7 @@ li {
     margin-left: 2rem;
     margin: 10px;
     color: #333333;
+
 }
 
 .authorQuote:hover {

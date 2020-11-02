@@ -18,7 +18,7 @@ export default function QuotesByAuthor() {
             const res = await fetch(API_BY_AUTHOR + authorName + API_MAX);
             const newAuthorQuotes = await res.json();
             setnewQuote(newAuthorQuotes);
-            console.log(newAuthorQuotes);
+            console.log(newAuthorQuotes); 
         }
         
         useEffect(() => {
