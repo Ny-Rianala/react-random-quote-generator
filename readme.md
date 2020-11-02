@@ -59,10 +59,16 @@ Template for your readme :
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
--   Where can I see your demo?
--   What was your experience?
--   What have you learned/improved?
--   Your wisdom? :)
+1. Where can I see your demo?
+  	- In the first page, By clicking the random link above the quote, we can choose quote that we want to see.  
+    - We also can see list of quotes and its authors.
+    - In the author's name, we have a link that goes to the author's quotes.  
+2. What was your experience?
+    - Using link inside jsx, then adding its own path to go to see the random quotes.
+    - Using "useparams" to get each author's quotes in the nest page.
+3. What have you learned/improved?
+  - I have learn that when we use switch, we should repeat it twice inside of a Router. 
+4. Your wisdom? :)
 
 ### Built With
 
@@ -98,5 +104,5 @@ $ npm start
 ## Contact
 
 -   Website [your-website.com](https://{your-web-site-link})
--   GitHub [@your-username](https://{github.com/your-usermame})
+-   GitHub https://github.com/Ny-Rianala/react-random-quote-generator
 -   Twitter [@your-twitter](https://{twitter.com/your-username})
